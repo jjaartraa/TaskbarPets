@@ -16,7 +16,7 @@ namespace TaskbarPets
         {
             foreach (var keyWord in actions)
             {
-                Models.Add(keyWord, new List<string>(Directory.GetFiles(@"C:\Users\Jaroslav\source\repos\TaskbarPets\Models\" + name, "*" + keyWord + "*.jpg")));
+                Models.Add(keyWord, new List<string>(Directory.GetFiles(@"C:\Users\Jaroslav\source\repos\TaskbarPets\Models\" + name, "*" + keyWord + "*.png")));
             }
         }
     }
